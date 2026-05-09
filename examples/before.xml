@@ -1,0 +1,34 @@
+<response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <item xsi:type="sObject">
+    <type>Knowledge__kav</type>
+    <Id>ka00000000000000AAA</Id>
+    <Title>Store Locations</Title>
+    <UrlName>store-locations</UrlName>
+    <Answer__c>
+      <table>
+        <tbody>
+          <tr>
+            <th colspan="1" rowspan="1">Name</th>
+            <th colspan="1" rowspan="1">Address</th>
+            <th colspan="1" rowspan="1">Opening Hours</th>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1">Downtown Branch</td>
+            <td colspan="1" rowspan="1">100 Main St, Sydney NSW 2000</td>
+            <td colspan="1" rowspan="1">Mon - Sun: 10:00 am - 11:00 pm</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1">Westside Branch</td>
+            <td colspan="1" rowspan="1">200 West Ave, Melbourne VIC 3000</td>
+            <td colspan="1" rowspan="1">Mon - Sun: 11:00 am - 10:00 pm</td>
+          </tr>
+          <tr>
+            <td colspan="1" rowspan="1">Northgate Branch</td>
+            <td colspan="1" rowspan="1">300 North Rd, Brisbane QLD 4000</td>
+            <td colspan="1" rowspan="1">Mon - Sun: 10:00 am - 10:30 pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </Answer__c>
+  </item>
+</response>
