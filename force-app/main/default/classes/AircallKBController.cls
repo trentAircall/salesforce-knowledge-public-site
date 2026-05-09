@@ -187,6 +187,7 @@ global class AircallKBController {
      * 5. Collapse whitespace and remove empty paragraphs
      * 6. Convert tables to prose-style sections
      */
+    @TestVisible
     private static String renderBody(String raw) {
         if (String.isBlank(raw)) return '';
         String s = raw;
@@ -384,7 +385,8 @@ global class AircallKBController {
         return r.trim();
     }
 
-    /** "El Jannah Bankstown" -> "el-jannah-bankstown" */
+    /** "Downtown Branch" -> "downtown-branch" */
+    @TestVisible
     private static String slugify(String s) {
         if (s == null) return '';
         String slug = s.toLowerCase().replaceAll('[^a-z0-9]+', '-');
