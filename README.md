@@ -95,17 +95,20 @@ and remaining columns rendered as prose paragraphs:
 This is dynamic — add a `Phone Number` column to the article table and the
 output gains "The phone number is..." paragraphs with no Apex change.
 
-## Deploy
+## Getting started
 
-1. Clone this repo
-2. Authenticate to your target org:
-   ```bash
-   sf org login web --alias myorg
-   ```
-3. Deploy:
-   ```bash
-   sf project deploy start --target-org myorg
-   ```
+A full step-by-step UI walkthrough is in
+**[`docs/IMPLEMENTATION.md`](docs/IMPLEMENTATION.md)** — covering Knowledge
+enablement, creating the body field, deploying the Apex, creating the public
+site, configuring guest permissions, publishing your first article, and
+testing the endpoint.
+
+For developers who prefer the CLI:
+
+```bash
+sf org login web --alias myorg
+sf project deploy start --target-org myorg
+```
 
 ## Configuration
 
