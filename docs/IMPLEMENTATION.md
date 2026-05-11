@@ -195,19 +195,27 @@ If you get a `Not Found` response, check that:
 
 ---
 
-## Step 9 — Add the URL to your ingestion tool
+## Step 9 — Add the URL to your Aircall AI Voice Agent
 
-Whatever's consuming the content (Aircall AI agent, an internal crawler, a
-search index, etc.) — point it at the **index URL**:
+In the Aircall dashboard:
+
+1. Open your **AI Voice Agent**
+2. Go to the **Knowledge Base** section
+3. **Add a new source** of type **URL**
+4. Paste your **index URL**:
 
 ```
 https://<your-domain>.my.salesforce-sites.com/<your-path>/services/apexrest/AircallKB/
 ```
 
-The crawler will follow links from the index to each individual article.
+5. Save
+
+Aircall's webcrawler will follow links from the index to each individual
+article and ingest the content.
 
 From this point on, anything authored in Salesforce Knowledge and ticked for
-**Public Knowledge Base** will be picked up automatically on the next crawl.
+**Public Knowledge Base** will be picked up automatically on the next crawl —
+no Aircall config changes needed when articles are added or updated.
 
 ---
 
