@@ -31,9 +31,11 @@ global class AircallKBController {
     // -----------------------------------------------------------------
     private static final String BODY_FIELD = 'Answer__c';
     private static final String LANGUAGE   = 'en_US';
+    // Update to match your Force.com Site domain and path.
+    // Format: https://<your-domain>.my.salesforce-sites.com/<your-site-path>/services/apexrest/AircallKB/
     private static final String PUBLIC_BASE_URL =
         'https://your-domain.my.salesforce-sites.com'
-        + '/kb/services/apexrest/AircallKB/';
+        + '/your-site-path/services/apexrest/AircallKB/';
 
     // -----------------------------------------------------------------
     // Routing
